@@ -1,0 +1,133 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@tourism.com",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "email": "user@tourism.com",
+      "password": "user",
+      "role": "user"
+    },
+    {
+      "id": "b3c9",
+      "username": "demodemo",
+      "email": "demo@test.com",
+      "password": "demo@test.comdemo123",
+      "role": "user"
+    },
+    {
+      "id": "4495",
+      "username": "midhunsai",
+      "email": "kankanampatimidhunsai2005@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "phone": "8978702826",
+      "address": "Guntur,Andhra pradesh"
+    }
+  ],
+  "tours": [
+    {
+      "id": "1",
+      "title": "Majestic Paris",
+      "description": "Experience the romance of Paris with this 5-day tour covering the Eiffel Tower, Louvre Museum, and more.",
+      "price": 1200,
+      "duration": "5 Days",
+      "location": "Paris, France",
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "rating": 4.8,
+      "reviews": 120
+    },
+    {
+      "id": "2",
+      "title": "Bali Island Escape",
+      "description": "Relax on the pristine beaches of Bali and explore its rich culture and temples.",
+      "price": 800,
+      "duration": "7 Days",
+      "location": "Bali, Indonesia",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "rating": 4.9,
+      "reviews": 85
+    },
+    {
+      "id": "3",
+      "title": "Swiss Alps Adventure",
+      "description": "Hiking, skiing, and breathtaking views in the heart of Switzerland.",
+      "price": 1500,
+      "duration": "6 Days",
+      "location": "Interlaken, Switzerland",
+      "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "rating": 4.7,
+      "reviews": 95
+    },
+    {
+      "id": "4",
+      "title": "Kyoto Cultural Tour",
+      "description": "Immerse yourself in the history and traditions of Japan's ancient capital.",
+      "price": 1100,
+      "duration": "6 Days",
+      "location": "Kyoto, Japan",
+      "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "rating": 4.8,
+      "reviews": 110
+    },
+    {
+      "id": "5",
+      "title": "Safari in Kenya",
+      "description": "Witness the Big Five in their natural habitat on this thrilling safari adventure.",
+      "price": 2000,
+      "duration": "8 Days",
+      "location": "Maasai Mara, Kenya",
+      "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "rating": 4.9,
+      "reviews": 60
+    },
+    {
+      "id": "6",
+      "title": "New York City Lights",
+      "description": "Explore the city that never sleeps, from Times Square to Central Park.",
+      "price": 1300,
+      "duration": "5 Days",
+      "location": "New York, USA",
+      "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "rating": 4.6,
+      "reviews": 150
+    },
+    {
+      "id": "2bc0",
+      "title": " Korea",
+      "description": "South Korea is a place which is famous for Ramen. Han River is a most visited place in South Korea. Seoul Tower is famous during winter.",
+      "price": 1000,
+      "duration": "10 Days",
+      "location": "South Korea",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kpopmap.com%2Ftravel%2Fnamsan-seoul-tower-%25EB%2582%25A8%25EC%2582%25B0%25EC%2584%259C%25EC%259A%25B8%25ED%2583%2580%25EC%259B%258C%2F&psig=AOvVaw0QXodPMjeUc_gy0pfA7AXN&ust=1764828989235000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICzyb3ioJEDFQAAAAAdAAAAABAE",
+      "rating": 4.5,
+      "reviews": 0
+    }
+  ],
+  "bookings": [
+    {
+      "id": "e317",
+      "userId": "4495",
+      "tourId": "2",
+      "tourTitle": "Bali Island Escape",
+      "date": "2025-12-03T04:43:08.030Z",
+      "status": "Confirmed",
+      "price": 800
+    },
+    {
+      "id": "ccdb",
+      "userId": "4495",
+      "tourId": "2",
+      "tourTitle": "Bali Island Escape",
+      "date": "2025-12-03T08:52:07.880Z",
+      "status": "Confirmed",
+      "price": 800
+    }
+  ]
+}
